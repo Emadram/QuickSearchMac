@@ -1,15 +1,16 @@
+
 ## Credits
 
 Inspired by [Bookmark](https://github.com/M00t3/bookmark) by [@M00t3](https://github.com/M00t3).
+
 <hr>
 
 # QuickSearch
-
 <div align="center">
   <img src="https://skillicons.dev/icons?i=macos" alt="macOS" />
   <h3>A powerful, minimal bookmark launcher and search shortcut tool for macOS</h3>
   
-  ![GitHub License](https://img.shields.io/github/license/Emadram/QuickSearch)
+  ![GitHub License](https://img.shields.io/github/license/YOUR_USERNAME/QuickSearch)
   ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 </div>
 
@@ -44,35 +45,18 @@ This automatically configures everything including scripts and Raycast integrati
    ```bash
    python3 --version
    ```
+   
+   No additional Python packages are required.
 
-3. **Configure Settings**
+3. **Configuration Files**
 
-   Edit `~/QuickSearch/config.ini`:
-
-   ```ini
-   [open_link]
-   browser = safari
-
-   [default]
-   default_flag = quick-search
-   use_rofi = false
-   dwm_workspace = 2
-   i3wm_workspace = 2
-   ```
-
-4. **Create Configuration Files**
-
-   Create `~/.sites.txt`:
-   ```
-   https://chat.openai.com
-   https://www.youtube.com
-   ```
-
-   Create `~/.quick_search.txt`:
-   ```
-   yt youtube.com
-   ar wiki.archlinux.org
-   ```
+   All necessary configuration files are included in the repository:
+   
+   - `config.ini`: Contains browser and environment settings
+   - `.sites.txt`: Default bookmarked URLs
+   - `.quick_search.txt`: Default abbreviation mappings
+   
+   These files will be automatically set up during installation. You can modify them later according to your preferences.
 
 ## Raycast Integration
 
