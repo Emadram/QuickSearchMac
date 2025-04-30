@@ -5,7 +5,7 @@ Inspired by [Bookmark](https://github.com/M00t3/bookmark) by [@M00t3](https://gi
 
 <hr>
 
-# QuickSearch
+# QuickSearchMac
 <div align="center">
   <img src="https://skillicons.dev/icons?i=macos" alt="macOS" />
   <h3>A powerful, minimal bookmark launcher and search shortcut tool for macOS</h3>
@@ -24,20 +24,10 @@ Launch websites via abbreviations or search within predefined sources through Ra
 
 ## Installation
 
-### Automatic Setup (Recommended)
-
-```bash
-bash <(curl -s https://raw.githubusercontent.com/YOUR_USERNAME/QuickSearch/main/install.sh)
-```
-
-This automatically configures everything including scripts and Raycast integration.
-
-### Manual Setup
-
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/QuickSearch.git ~/QuickSearch
+   git clone https://github.com/YOUR_USERNAME/QuickSearchMac.git ~/QuickSearchMac
    ```
 
 2. **Verify Python Installation**
@@ -143,7 +133,7 @@ aqs gh https://github.com
 ## Project Structure
 
 ```
-QuickSearch/
+QuickSearchMac/
 │
 ├── bookmark.py             # Main script handling searches
 ├── add_site.py             # Script to add site abbreviations
