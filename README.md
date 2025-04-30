@@ -1,12 +1,11 @@
-## [![Git](https://skillicons.dev/icons?i=git)](https://skillicons.dev) Credits
+## Credits
 
-Inspired by [Bookmark](https://github.com/username/repository) by [@M00t3](https://github.com/M00t3).
+Inspired by [Bookmark](https://github.com/M00t3/bookmark) by [@M00t3](https://github.com/M00t3).
+<hr>
 # QuickSearch
 
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=macos" alt="macOS" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=macos" alt="macOS" />
   <h3>A powerful, minimal bookmark launcher and search shortcut tool for macOS</h3>
   
   ![GitHub License](https://img.shields.io/github/license/YOUR_USERNAME/QuickSearch)
@@ -17,15 +16,13 @@ Launch websites via abbreviations or search within predefined sources through Ra
 
 ## Requirements
 
-[![Required Technologies](https://skillicons.dev/icons?i=macos,python)](https://skillicons.dev)
-
 - macOS
 - [Raycast](https://www.raycast.com/)
 - Python 3.x
 
 ## Installation
 
-### [![Bash](https://skillicons.dev/icons?i=bash)](https://skillicons.dev) Automatic Setup (Recommended)
+### Automatic Setup (Recommended)
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/YOUR_USERNAME/QuickSearch/main/install.sh)
@@ -33,7 +30,7 @@ bash <(curl -s https://raw.githubusercontent.com/YOUR_USERNAME/QuickSearch/main/
 
 This automatically configures everything including scripts and Raycast integration.
 
-### [![Git](https://skillicons.dev/icons?i=git)](https://skillicons.dev) Manual Setup
+### Manual Setup
 
 1. **Clone the Repository**
 
@@ -130,7 +127,7 @@ This automatically configures everything including scripts and Raycast integrati
 
 ## Usage Examples
 
-### [![Browser](https://skillicons.dev/icons?i=chrome)](https://skillicons.dev) Quick Search (`qs`)
+### Quick Search (`qs`)
 
 Search YouTube for "linux tips":
 ```
@@ -144,7 +141,7 @@ qs gh
 ```
 ↳ Opens: `https://github.com`
 
-### [![Markdown](https://skillicons.dev/icons?i=md)](https://skillicons.dev) Add Quick Site (`aqs`)
+### Add Quick Site (`aqs`)
 
 Add GitHub abbreviation:
 ```
@@ -166,7 +163,7 @@ QuickSearch/
 └── install.sh              # Automatic setup script
 ```
 
-## [![Technologies](https://skillicons.dev/icons?i=linux,bash)](https://skillicons.dev) Features
+## Features
 
 - **Lightning-fast searches** - Launch websites with just a few keystrokes
 - **Customizable abbreviations** - Create your own shortcuts for any website
@@ -174,7 +171,7 @@ QuickSearch/
 - **Minimal dependencies** - Just Python and Raycast required
 - **Cross-browser support** - Configure your preferred browser
 
-## [![Contribution](https://skillicons.dev/icons?i=github)](https://skillicons.dev) Contributing
+## Contributing
 
 Contributions are welcome! If you have ideas for:
 - Additional search engines
