@@ -9,7 +9,7 @@ Inspired by [Bookmark](https://github.com/M00t3/bookmark) by [@M00t3](https://gi
   <img src="https://skillicons.dev/icons?i=macos" alt="macOS" />
   <h3>A powerful, minimal bookmark launcher and search shortcut tool for macOS</h3>
   
-  ![GitHub License](https://img.shields.io/github/license/YOUR_USERNAME/QuickSearch)
+  ![GitHub License](https://img.shields.io/github/license/Emadram/QuickSearch)
   ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 </div>
 
