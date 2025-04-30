@@ -103,7 +103,7 @@ Launch websites via abbreviations or search within predefined sources through Ra
    chmod +x ~/YOURPATH/qs.sh ~/YOURPATH/aqs.sh
    ```
 
-## Usage Examples
+## Usage Examples (Icons are changed)
 <img width="747" alt="3" src="https://github.com/user-attachments/assets/841e8a0f-2513-4afa-903e-c2f6f31fc949" />
 <img width="751" alt="4" src="https://github.com/user-attachments/assets/2ac5e2fa-1876-4db8-bce0-71dd0fb274b3" />
 
