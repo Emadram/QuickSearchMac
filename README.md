@@ -55,7 +55,9 @@ Launch websites via abbreviations or search within predefined sources through Ra
    In Raycast: `creat script command`
 <img width="749" alt="1" src="https://github.com/user-attachments/assets/4eb39d23-3856-4dd6-ac7e-a44967ab1387" />
 <img width="750" alt="2" src="https://github.com/user-attachments/assets/99513d60-62bf-4a33-b74d-5bedc52ae95f" />
-Save them in the current Dir(folder) of the repo.
+
+
+##Save them in a dir(folder) that you want.
 
 2. **Update Script Files**
 
@@ -98,7 +100,7 @@ Save them in the current Dir(folder) of the repo.
 4. **Make Scripts Executable**
 
    ```bash
-   chmod +x ~/raycast-scripts/qs.sh ~/raycast-scripts/aqs.sh
+   chmod +x ~/YOURPATH/qs.sh ~/YOURPATH/aqs.sh
    ```
 
 ## Usage Examples
@@ -141,7 +143,6 @@ QuickSearchMac/
 ├── config.ini              # Configuration file
 ├── .sites.txt              # List of bookmarked URLs
 ├── .quick_search.txt       # Abbreviation to URL mappings
-└── install.sh              # Automatic setup script
 ```
 
 ## Features
