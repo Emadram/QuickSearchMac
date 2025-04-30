@@ -1,0 +1,23 @@
+#+-----------+
+#|  Example  |
+#+-----------+
+
+# Wiki
+ar  https://wiki.archlinux.org
+db  https://wiki.debian.org
+
+# Cheat Sheet
+dh   https://devhints.io
+chi  https://overapi.com
+chg  https://cheatography.com
+
+# AI
+gpt https://chat.openai.com/chat
+
+
+# Source & Configs
+dt  http://dotshare.it
+gt  https://github.com
+
+# Django
+dj https://docs.djangoproject.com/en/5.0/
