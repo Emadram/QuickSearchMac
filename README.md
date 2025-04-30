@@ -2,6 +2,7 @@
 
 Inspired by [Bookmark](https://github.com/M00t3/bookmark) by [@M00t3](https://github.com/M00t3).
 <hr>
+
 # QuickSearch
 
 <div align="center">
