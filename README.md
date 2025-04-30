@@ -1,33 +1,37 @@
+# QuickSearch
 
-## Credits
-
-Inspired by [Bookmark](https://github.com/M00t3/bookmark) by [@M00t3](https://github.com/M00t3).
-
-<hr>
-
-# QuickSearchMac
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=macos" alt="macOS" />
+  <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
   <h3>A powerful, minimal bookmark launcher and search shortcut tool for macOS</h3>
   
-  ![GitHub License](https://img.shields.io/github/license/Emadram/QuickSearchMac)
+  ![GitHub License](https://img.shields.io/github/license/YOUR_USERNAME/QuickSearch)
   ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 </div>
 
 Launch websites via abbreviations or search within predefined sources through Raycast. QuickSearch lets you access your favorite sites and search engines with just a few keystrokes.
 
-## Requirements
+## ![](https://img.shields.io/badge/REQUIREMENTS-7A7A7A?style=for-the-badge)
 
-- macOS
-- [Raycast](https://www.raycast.com/)
-- Python 3.x
+![](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![](https://img.shields.io/badge/Raycast-191919?style=for-the-badge)
+![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-## Installation
+## ![](https://img.shields.io/badge/INSTALLATION-7A7A7A?style=for-the-badge)
+
+### ![](https://img.shields.io/badge/AUTOMATIC-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/YOUR_USERNAME/QuickSearch/main/install.sh)
+```
+
+This automatically configures everything including scripts and Raycast integration.
+
+### ![](https://img.shields.io/badge/MANUAL-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/QuickSearchMac.git ~/QuickSearchMac
+   git clone https://github.com/YOUR_USERNAME/QuickSearch.git ~/QuickSearch
    ```
 
 2. **Verify Python Installation**
@@ -48,18 +52,15 @@ Launch websites via abbreviations or search within predefined sources through Ra
    
    These files will be automatically set up during installation. You can modify them later according to your preferences.
 
-## Raycast Integration
+## ![](https://img.shields.io/badge/RAYCAST_INTEGRATION-191919?style=for-the-badge)
 
-1. **Create Script **
+1. **Enable Script Commands Directory**
    
-   In Raycast: `creat script command`
-<img width="749" alt="1" src="https://github.com/user-attachments/assets/4eb39d23-3856-4dd6-ac7e-a44967ab1387" />
-<img width="750" alt="2" src="https://github.com/user-attachments/assets/99513d60-62bf-4a33-b74d-5bedc52ae95f" />
+   In Raycast: `Preferences → Extensions → Script Commands → Add Directory`
 
+2. **Create Script Files**
 
-##Save them in a dir(folder) that you want.
-
-2. **Update Script Files**
+   Place these in your Raycast script folder (e.g., `~/raycast-scripts/`):
 
    **qs.sh - Quick Search**
 
@@ -76,7 +77,7 @@ Launch websites via abbreviations or search within predefined sources through Ra
    # Optional parameters:
    # @raycast.icon 🔍
 
-   python3 ~/QuickSearchMac/bookmark.py --quick-search "$1" "$2"
+   python3 ~/QuickSearch/bookmark.py --quick-search "$1" "$2"
    ```
 
    **aqs.sh - Add Quick Site**
@@ -94,23 +95,18 @@ Launch websites via abbreviations or search within predefined sources through Ra
    # Optional parameters:
    # @raycast.icon ➕
 
-   python3 ~/QuickSearchMac/add_site.py "$1" "$2"
+   python3 ~/QuickSearch/add_site.py "$1" "$2"
    ```
 
-4. **Make Scripts Executable**
+3. **Make Scripts Executable**
 
    ```bash
-   chmod +x ~/YOURPATH/qs.sh ~/YOURPATH/aqs.sh
+   chmod +x ~/raycast-scripts/qs.sh ~/raycast-scripts/aqs.sh
    ```
 
-## Usage Examples
-<img width="747" alt="3" src="https://github.com/user-attachments/assets/841e8a0f-2513-4afa-903e-c2f6f31fc949" />
-<img width="751" alt="4" src="https://github.com/user-attachments/assets/2ac5e2fa-1876-4db8-bce0-71dd0fb274b3" />
+## ![](https://img.shields.io/badge/USAGE_EXAMPLES-0175C2?style=for-the-badge)
 
-
-## Usage Examples without Raycast
-
-### Quick Search (`qs`)
+### ![](https://img.shields.io/badge/QUICK_SEARCH-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)
 
 Search YouTube for "linux tips":
 ```
@@ -124,7 +120,7 @@ qs gh
 ```
 ↳ Opens: `https://github.com`
 
-### Add Quick Site (`aqs`)
+### ![](https://img.shields.io/badge/ADD_SITE-512BD4?style=for-the-badge&logo=bookmark&logoColor=white)
 
 Add GitHub abbreviation:
 ```
@@ -132,10 +128,10 @@ aqs gh https://github.com
 ```
 ↳ Adds entry to configuration files
 
-## Project Structure
+## ![](https://img.shields.io/badge/PROJECT_STRUCTURE-7A7A7A?style=for-the-badge)
 
 ```
-QuickSearchMac/
+QuickSearch/
 │
 ├── bookmark.py             # Main script handling searches
 ├── add_site.py             # Script to add site abbreviations
@@ -143,9 +139,10 @@ QuickSearchMac/
 ├── config.ini              # Configuration file
 ├── .sites.txt              # List of bookmarked URLs
 ├── .quick_search.txt       # Abbreviation to URL mappings
+└── install.sh              # Automatic setup script
 ```
 
-## Features
+## ![](https://img.shields.io/badge/FEATURES-00C7B7?style=for-the-badge)
 
 - **Lightning-fast searches** - Launch websites with just a few keystrokes
 - **Customizable abbreviations** - Create your own shortcuts for any website
@@ -153,7 +150,7 @@ QuickSearchMac/
 - **Minimal dependencies** - Just Python and Raycast required
 - **Cross-browser support** - Configure your preferred browser
 
-## Contributing
+## ![](https://img.shields.io/badge/CONTRIBUTING-181717?style=for-the-badge&logo=github&logoColor=white)
 
 Contributions are welcome! If you have ideas for:
 - Additional search engines
@@ -162,6 +159,10 @@ Contributions are welcome! If you have ideas for:
 
 Please open an issue or submit a pull request.
 
-## License
+## ![](https://img.shields.io/badge/LICENSE-FE7D37?style=for-the-badge)
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## ![](https://img.shields.io/badge/CREDITS-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+Inspired by [Bookmark](https://github.com/M00t3/bookmark) by [@M00t3](https://github.com/M00t3).
