@@ -60,13 +60,14 @@ This automatically configures everything including scripts and Raycast integrati
 
 ## Raycast Integration
 
-1. **Enable Script Commands Directory**
+1. **Create Script **
    
-   In Raycast: `Preferences → Extensions → Script Commands → Add Directory`
+   In Raycast: `creat script command`
+<img width="749" alt="1" src="https://github.com/user-attachments/assets/4eb39d23-3856-4dd6-ac7e-a44967ab1387" />
+<img width="750" alt="2" src="https://github.com/user-attachments/assets/99513d60-62bf-4a33-b74d-5bedc52ae95f" />
+Save them in the current Dir(folder) of the repo.
 
-2. **Create Script Files**
-
-   Place these in your Raycast script folder (e.g., `~/raycast-scripts/`):
+2. **Update Script Files**
 
    **qs.sh - Quick Search**
 
@@ -83,7 +84,7 @@ This automatically configures everything including scripts and Raycast integrati
    # Optional parameters:
    # @raycast.icon 🔍
 
-   python3 ~/QuickSearch/bookmark.py --quick-search "$1" "$2"
+   python3 ~/QuickSearchMac/bookmark.py --quick-search "$1" "$2"
    ```
 
    **aqs.sh - Add Quick Site**
@@ -101,16 +102,21 @@ This automatically configures everything including scripts and Raycast integrati
    # Optional parameters:
    # @raycast.icon ➕
 
-   python3 ~/QuickSearch/add_site.py "$1" "$2"
+   python3 ~/QuickSearchMac/add_site.py "$1" "$2"
    ```
 
-3. **Make Scripts Executable**
+4. **Make Scripts Executable**
 
    ```bash
    chmod +x ~/raycast-scripts/qs.sh ~/raycast-scripts/aqs.sh
    ```
 
 ## Usage Examples
+<img width="747" alt="3" src="https://github.com/user-attachments/assets/841e8a0f-2513-4afa-903e-c2f6f31fc949" />
+<img width="751" alt="4" src="https://github.com/user-attachments/assets/2ac5e2fa-1876-4db8-bce0-71dd0fb274b3" />
+
+
+## Usage Examples without Raycast
 
 ### Quick Search (`qs`)
 
