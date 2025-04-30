@@ -1,0 +1,14 @@
+#+--------------+
+#|   Example    |
+#+--------------+
+
+# i3
+https://i3wm.org/docs/4.3/userguide.html
+https://github.com/adi1090x/polybar-themes
+
+# config and github repos
+http://dotshare.it
+https://awesomeopensource.com/
+https://vimawesome.com/
+https://github.com/alebcay/awesome-shell
+https://github.com/webpro/awesome-dotfiles
