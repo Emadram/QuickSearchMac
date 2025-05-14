@@ -155,10 +155,7 @@ QuickSearchMac/
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for:
-- Additional search engines
-- UI improvements
-- New features
+Contributions are welcome!
 
 Please open an issue or submit a pull request.
 
